@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   justify-content: center;
+}
+
+.footer_info {
+    display: flex;
+    margin-left: 2.5%;
+}
+
+.footer_info:hover {
+    text-decoration: underline;
+}

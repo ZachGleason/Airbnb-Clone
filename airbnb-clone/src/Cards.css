@@ -1,0 +1,41 @@
+.cards {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}   
+
+.card_info {
+    margin-left: 10px;
+}
+
+.card_info > h2 {
+   font-size: 20px;
+   padding-bottom: 3px;
+}
+
+.card_info > h4 {
+  color: gray;
+  font-weight: 500;
+  padding-bottom: 3px;
+ }
+
+.card_info > h3 {
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-size: 15px;
+   }
+  
+
+.cards:hover {
+    transform: scale(1.07);
+}
+
+.cards > img {
+    object-fit: fill;
+    min-width: 300px;
+    min-height: 200px;
+    width: 100%;
+}
